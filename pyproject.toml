@@ -1,0 +1,3 @@
+[tool.black]
+line-length = 140
+extend-exclude = '/(data|dbt|venvs)/|scripts/lab_[a-z]+[.]py'

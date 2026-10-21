@@ -1,0 +1,14 @@
+.env
+.venv/
+venvs/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/
+.terraform/
+*.tfstate*
+terraform.tfvars
+docs/CREDENTIALS.md
+dbt/prj1/target/
+dbt/prj1/logs/
+dbt/prj1/.user.yml
