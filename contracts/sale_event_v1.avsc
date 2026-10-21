@@ -1,0 +1,24 @@
+{
+  "type": "record",
+  "name": "SaleEvent",
+  "namespace": "de_lab.outbox",
+  "doc": "Payload of an outbox.event row where aggregatetype = 'sale'.",
+  "fields": [
+    {"name": "event_id",       "type": "string"},
+    {"name": "event_type",     "type": "string"},
+    {"name": "occurred_at",    "type": "string"},
+    {"name": "sale_id",        "type": "string"},
+    {"name": "vin",            "type": "string"},
+    {"name": "plant_id",       "type": "string"},
+    {"name": "dealer_id",      "type": "string"},
+    {"name": "customer_id",    "type": "string"},
+    {"name": "customer_email", "type": "string"},
+    {"name": "customer_phone", "type": "string"},
+    {"name": "sale_date",      "type": "string"},
+    {"name": "sale_amount",    "type": "double"},
+    {"name": "currency",       "type": "string"},
+    {"name": "engine_type",    "type": "string"},
+    {"name": "model_code",     "type": "string"},
+    {"name": "warranty_tier",  "type": "string"}
+  ]
+}
