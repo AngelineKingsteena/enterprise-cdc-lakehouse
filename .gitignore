@@ -1,14 +1,32 @@
+# Secrets
 .env
+.env.*
+!.env.example
+docs/CREDENTIALS.md
+*-key.json
+credentials*.json
+*.pem
+
+# Python
 .venv/
 venvs/
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# Data
 data/
+
+# Terraform
 .terraform/
 *.tfstate*
 terraform.tfvars
-docs/CREDENTIALS.md
+*.auto.tfvars
+terraform.tfvars.json
+tfplan
+*.tfplan
+
+# dbt
 dbt/prj1/target/
 dbt/prj1/logs/
 dbt/prj1/.user.yml
