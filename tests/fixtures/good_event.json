@@ -1,0 +1,18 @@
+{
+  "event_id": "e",
+  "event_type": "sale.created",
+  "occurred_at": "2026-10-09T10:00:00+00:00",
+  "sale_id": "SALE_00000001",
+  "vin": "VIN_1",
+  "plant_id": "PLT001",
+  "dealer_id": "DLR_001",
+  "customer_id": "CUST_00001",
+  "customer_email": "a@example.com",
+  "customer_phone": "+491512345678",
+  "sale_date": "2026-10-09",
+  "sale_amount": 75000.0,
+  "currency": "EUR",
+  "engine_type": "ELECTRIC",
+  "model_code": "EQS",
+  "warranty_tier": "STANDARD"
+}
